@@ -1,0 +1,364 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/l/lpbrown2/ECE464/Project
+T_opt
+!s110 1635624510
+V^cMRc7i<:@mB6<XbA3NA^0
+Z1 04 6 4 work tb_top fast 0
+=1-008cfa039b3d-617da63e-3f385-6e00
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1636825566
+VmQ[oRGdFDSL<<GCGXA0cU0
+R1
+=1-008cfa03b8cd-618ff9de-6b71e-267
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1637631356
+V?Q;kPEZka]_e_4ZBVYeOI0
+R1
+=1-008cfa039ed5-619c457c-78370-58e0
+R2
+R3
+n@_opt2
+R4
+R0
+vcontrol
+!s110 1638218049
+!i10b 1
+!s100 CezZCJ1SbhlYJMZflYRe42
+!s11b aaaWA07=9YA8zP_VlZB?83
+I8Qlm2Bc7lc=oB8<kC1;Ig3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1638217964
+8controller.v
+Fcontroller.v
+L0 3
+Z6 OL;L;2019.2;69
+r1
+!s85 0
+31
+!s108 1638218049.000000
+!s107 controller.v|
+!s90 +acc|controller.v|
+!i113 0
+Z7 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vConvoMath
+!s110 1638218038
+!i10b 1
+!s100 Y;?ME0ZoZfoOYN3mXLZTi3
+!s11b E_1=TiUMInf97gM?Be?gG3
+I<TOF_EN;z`AnQLZ8QnC1>2
+R5
+R0
+Z8 w1638217963
+8ConvolutionMath.v
+FConvolutionMath.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1638218038.000000
+!s107 ConvolutionMath.v|
+!s90 +acc|ConvolutionMath.v|
+!i113 0
+R7
+R3
+n@convo@math
+vDatapath
+!s110 1638218043
+!i10b 1
+!s100 L^oMWiDJ^f8ReSCd1?H2G2
+!s11b GK06^D`cGZolZkHGmkhGh1
+IzEd^VKXhm7]5069?10F`H1
+R5
+R0
+R8
+8datapath.v
+Fdatapath.v
+L0 4
+R6
+r1
+!s85 0
+31
+!s108 1638218043.000000
+!s107 datapath.v|
+!s90 +acc|datapath.v|
+!i113 0
+R7
+R3
+n@datapath
+vMyDesign
+!s110 1638218054
+!i10b 1
+!s100 ;iPJ3>GI;l1:FMjKih?k30
+!s11b @^`hh74MNNndlOPd<XGzo3
+IajJ1j8Eih2k3o8[WE@M242
+R5
+R0
+w1638217965
+8Project464.v
+FProject464.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1638218054.000000
+!s107 Project464.v|
+!s90 +acc|Project464.v|
+!i113 0
+R7
+R3
+n@my@design
+vMyDesign_DP_OP_111_122_3017_0
+Z9 !s110 1636823749
+!i10b 1
+!s100 SZgQ1iIfOU9@?V[Khe];i1
+Z10 !s11b @CS8l];cDJ]OAliIYST3h3
+I4BQ6bH]WZLAFT?2QUih0z3
+R5
+R0
+Z11 w1636334174
+Z12 8MyDesign_init.v
+Z13 FMyDesign_init.v
+L0 203
+R6
+r1
+!s85 0
+31
+Z14 !s108 1636823749.000000
+Z15 !s107 Project464.v|MyDesign_init.v|MyDesign_final.v|datapath.v|ConvolutionMath.v|controller.v|
+Z16 !s90 +acc|controller.v|ConvolutionMath.v|datapath.v|MyDesign_final.v|MyDesign_init.v|Project464.v|
+!i113 0
+R7
+R3
+n@my@design_@d@p_@o@p_111_122_3017_0
+vMyDesign_DP_OP_112_123_3017_0
+R9
+!i10b 1
+!s100 iafXfOhnObkO4B>QQ0aES1
+R10
+I^dNGIT6O75o>6?FzHd^4k1
+R5
+R0
+R11
+R12
+R13
+L0 138
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R7
+R3
+n@my@design_@d@p_@o@p_112_123_3017_0
+vMyDesign_DP_OP_113_124_3017_0
+R9
+!i10b 1
+!s100 Na]SO84DYz8UQcY:kB<2M3
+R10
+I;;1gfM=ZZ0?Zho68_5>]n1
+R5
+R0
+R11
+R12
+R13
+L0 73
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R7
+R3
+n@my@design_@d@p_@o@p_113_124_3017_0
+vMyDesign_DP_OP_114_125_3017_0
+R9
+!i10b 1
+!s100 ;M2<1FQb?[TQoCY0om3dT0
+R10
+II;`10^14?;X1oCg0lmF4g1
+R5
+R0
+R11
+R12
+R13
+L0 8
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R7
+R3
+n@my@design_@d@p_@o@p_114_125_3017_0
+vMyDesign_DW01_inc_0
+R9
+!i10b 1
+!s100 >fSIfGfi=aKTV4b^IiI0=2
+Z17 !s11b ;Fh`^R?P62SdbfC4^UbBD2
+IBZmh1[JVS8b;N:hRiJELX2
+R5
+R0
+R11
+R12
+R13
+L0 268
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R7
+R3
+n@my@design_@d@w01_inc_0
+vMyDesign_DW01_inc_1
+R9
+!i10b 1
+!s100 1WSmMEGceo;lL:9RH]l882
+R17
+Idjk_WjIKJ=9?RL3[KOU_>2
+R5
+R0
+R11
+R12
+R13
+L0 284
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R7
+R3
+n@my@design_@d@w01_inc_1
+vMyDesign_DW01_inc_2
+R9
+!i10b 1
+!s100 Y00HL<4Thn^D^lRQQYa:;0
+R17
+IB<fPo_AjDKaGUg@QnYib30
+R5
+R0
+R11
+R12
+R13
+L0 300
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R7
+R3
+n@my@design_@d@w01_inc_2
+vMyDesign_DW01_inc_3
+R9
+!i10b 1
+!s100 eiE2E2ebk2[mD_7EeWj5j0
+R17
+I_:BLf8ESSaQ4HLZKn6Bjh0
+R5
+R0
+R11
+R12
+R13
+L0 316
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R7
+R3
+n@my@design_@d@w01_inc_3
+vsram
+Z18 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z19 !s110 1635630315
+!i10b 1
+!s100 QWaKJE_?2gj;T5Qe[VB7E2
+!s11b mH^hAU3LZH_kf]Kl:<2Ce3
+IZ`]:=`RHEeY;MIEhL?4K10
+R5
+S1
+R0
+w1635611407
+8sram.sv
+Fsram.sv
+L0 4
+R6
+r1
+!s85 0
+31
+Z20 !s108 1635630314.000000
+Z21 !s107 testbench_464.sv|sram.sv|
+Z22 !s90 +acc|sram.sv|testbench_464.sv|
+!i113 0
+R7
+R3
+vtb_top
+R18
+R19
+!i10b 1
+!s100 UG[zJUC;Oc]dUg[LZH_L90
+!s11b 3Dh;VhJGRF>bEhe0GC0=Y2
+ImLFhO9BCRC8AZS0UFckOb3
+R5
+S1
+R0
+w1635611120
+8testbench_464.sv
+Ftestbench_464.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R7
+R3

@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Mon Nov 29 15:38:04 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: ProjData/InMem_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ProjData/RMat_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  ProjData/InMem_reg[9]/CK (DFF_X2)                     0.0000     0.0000 r
+  ProjData/InMem_reg[9]/Q (DFF_X2)                      0.6085     0.6085 f
+  U255/ZN (XNOR2_X1)                                    0.4333     1.0418 r
+  DP_OP_110_124_6825/I3 (MyDesign_DP_OP_110_124_6825_1)
+                                                        0.0000     1.0418 r
+  DP_OP_110_124_6825/U102/ZN (NAND2_X2)                 0.1157     1.1575 f
+  DP_OP_110_124_6825/U57/ZN (NAND2_X2)                  0.1456     1.3031 r
+  DP_OP_110_124_6825/U114/ZN (INV_X4)                   0.0440     1.3472 f
+  DP_OP_110_124_6825/U101/ZN (XNOR2_X2)                 0.2432     1.5904 f
+  DP_OP_110_124_6825/U72/ZN (NOR2_X2)                   0.2431     1.8335 r
+  DP_OP_110_124_6825/U126/ZN (INV_X4)                   0.0411     1.8746 f
+  DP_OP_110_124_6825/U74/ZN (NAND2_X2)                  0.1003     1.9748 r
+  DP_OP_110_124_6825/U73/ZN (XNOR2_X2)                  0.2844     2.2592 r
+  DP_OP_110_124_6825/O2[1] (MyDesign_DP_OP_110_124_6825_1)
+                                                        0.0000     2.2592 r
+  U374/ZN (NAND2_X2)                                    0.0741     2.3333 f
+  U312/ZN (NAND3_X2)                                    0.1563     2.4896 r
+  U310/ZN (NAND2_X2)                                    0.0798     2.5694 f
+  U145/ZN (AOI21_X2)                                    0.1502     2.7196 r
+  ProjData/RMat_reg[1]/D (DFF_X2)                       0.0000     2.7196 r
+  data arrival time                                                2.7196
+
+  clock clk (rise edge)                                 3.0000     3.0000
+  clock network delay (ideal)                           0.0000     3.0000
+  clock uncertainty                                    -0.0500     2.9500
+  ProjData/RMat_reg[1]/CK (DFF_X2)                      0.0000     2.9500 r
+  library setup time                                   -0.2297     2.7203
+  data required time                                               2.7203
+  --------------------------------------------------------------------------
+  data required time                                               2.7203
+  data arrival time                                               -2.7196
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.0007
+
+
+1
